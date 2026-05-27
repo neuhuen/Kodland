@@ -1,0 +1,1 @@
+Para usar cualquiera de estos codigos hay que sacar el contenido de adentro de las carpetas. Es decir, borrar las carpetas de los modulos (por ej.,M1L2)
