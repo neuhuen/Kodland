@@ -50,6 +50,8 @@ def form():
 @app.route('/submit', methods=['POST'])
 def submit_form():
     # Declarar variables para la recogida de datos
+    with open('form.txt', 'a',) as f:
+        f.write(f"Name: {name}\nEmail: {email}\nAddress: {address}\nDate: {date}\n")
     name = request.form['name']
     email = request.form['email']
     address = request.form['address']
